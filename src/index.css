@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .cbtn {
+        @apply rounded-full bg-maincolor w-fit px-4 py-3 hover:bg-maincolor/90 text-[#ffff] transition-all duration-300 ;
+    }
+
+}
+
+
+
