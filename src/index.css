@@ -7,6 +7,9 @@
     .cbtn {
         @apply rounded-full bg-maincolor w-fit px-8 py-3 hover:bg-maincolor/90 text-[#ffff] transition-all duration-300;
     }
+        .cinpt {
+            @apply bg-zinc-200/70 p-3 rounded-lg focus:outline-none w-full;
+        }
 
 }
 
