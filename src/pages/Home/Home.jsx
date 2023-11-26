@@ -1,3 +1,4 @@
+import Testimonial from "../../components/Testimonial/Testimonial";
 import BookForm from "../../components/bookForm/BookForm";
 import Destination from "../../components/destinations/Destination";
 import Discount from "../../components/discount/Discount";
@@ -17,6 +18,8 @@ const Home = () => {
       <Discount />
       {/* BookForm section  */}
       <BookForm />
+      {/* testimonial section  */}
+      <Testimonial />
     </main>
   );
 };
