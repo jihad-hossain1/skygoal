@@ -9,7 +9,7 @@ const Navbar = () => {
         {/* logo section  */}
         <div></div>
         {/* main navbar section  */}
-        <ul className="flex gap-5 items-center">
+        <ul className="hidden md:flex gap-5 items-center ">
           {navdata.map(({ label, path }) => (
             <li className="" key={path}>
               <NavLink

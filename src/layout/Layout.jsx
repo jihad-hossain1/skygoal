@@ -4,7 +4,7 @@ import Navbar from "../components/header/Navbar";
 
 const Layout = () => {
   return (
-    <div className="font-inter font-extralight">
+    <div className="bg-zinc-50">
       <Navbar />
       <Outlet />
     </div>
